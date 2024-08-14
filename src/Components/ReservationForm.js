@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 
 
-
 function ReservationForm(props){
 
    const [occasion, setOccasion] = useState("");
