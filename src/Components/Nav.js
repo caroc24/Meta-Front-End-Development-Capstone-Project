@@ -1,7 +1,8 @@
 import React from 'react';
 import '../App.css';
 import logo from '../images/logo.jpg';
-/* import { Routes, Route, Link } from "react-router-dom"; */
+import Reservations from './Reservations';
+import { Routes, Route, Link } from 'react-router-dom';
 
 function Nav(){
     return (
@@ -20,6 +21,13 @@ function Nav(){
                     <li><a href="/orderonline">Order Online</a></li>
                     <li><a href="/login">Login</a></li>
                 </ul>
+
+                    {/*<Link to="/" className="nav-item">Home</Link>*/}
+                    <Link to="/reservations" className="nav-item">Reservations</Link>
+                    <Routes>
+                        {/*<Route path="/" element={<Home />}></Route>*/}
+                        <Route path="/reservations" element={<Reservations />}></Route>
+                    </Routes>
             </nav>
         </div>
     );
