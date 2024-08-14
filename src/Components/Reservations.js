@@ -1,11 +1,10 @@
-import React from 'react';
-import '../App.css';
+import React from "react";
+import BookingForm from "./BookingForm";
 
-function Reservations(){
-    return(
-        <div>
-            <h1>Hello.</h1>
-        </div>
-    );
+function Booking(props){
+    return (
+        <BookingForm availableTimes={props.availableTimes} dispatch={props.dispatch} submitForm={props.submitForm}/>
+    )
 }
-export default Reservations;
+
+export default Booking;
