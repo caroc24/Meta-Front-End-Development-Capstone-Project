@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-const CallToAction = () => {
+function CallToAction(){
     return(
         <header className='header'>
             <section>

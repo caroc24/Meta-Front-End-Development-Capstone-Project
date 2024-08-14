@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-const Reservations = () => {
+function Reservations(){
     return(
         <div>
             <h1>Hello.</h1>
