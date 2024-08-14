@@ -6,12 +6,12 @@ import CallToAction from './CalltoAction';
 
 function Main(){
     return (
-        <div>
+        <main>
             <Routes>
                 <Route path="/" element={<CallToAction />}></Route>
                 <Route path="/reservations" element={<Reservations />}></Route>
             </Routes>
-        </div>
+        </main>
     );
 }
 
