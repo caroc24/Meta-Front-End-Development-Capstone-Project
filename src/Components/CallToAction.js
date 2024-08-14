@@ -23,6 +23,6 @@ function CallToAction(){
                 </div>
             </section>
         </header>
-    )
+    );
 }
 export default CallToAction;

@@ -28,6 +28,6 @@ function Nav(){
             </Routes>
         </div>
     );
-};
+}
 
 export default Nav;
