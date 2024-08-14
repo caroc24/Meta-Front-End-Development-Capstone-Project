@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Nav from './Components/Nav';
+import CallToAction from './Components/CalltoAction';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <meta name="og:site_name" content="Little Lemon"/>
 
       <Nav/>
+      <CallToAction/>
     </div>
   );
 }
