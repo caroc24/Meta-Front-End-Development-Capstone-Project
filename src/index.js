@@ -9,6 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
         <App />
+        <script src="https://raw.githubusercontent.com/courseraap/capstone/main/api.js"></script>
     </BrowserRouter>
 );
 
