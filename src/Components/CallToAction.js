@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css';
 import banner from '../images/banner.jpg';
+import Reservations from './Reservations';
+import {Routes, Route} from 'react-router-dom'
 
 function CallToAction(){
     return(
@@ -14,6 +16,10 @@ function CallToAction(){
                     <a href="/" className="banner-img">
                         <img src ={banner} height={50} alt="Little Lemon logo"/>
                     </a>
+                    <Routes>
+                        <Route path="/reservations" element={<Reservations />} />
+                    </Routes>
+
                     <button>Reserve a Table</button>
                 </div>
             </section>
