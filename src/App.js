@@ -1,4 +1,6 @@
+import React from 'react';
 import './App.css';
+import Nav from './Components/Nav';
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
       <meta name="og:locale" content="en_US"/>
       <meta name="og:site_name" content="Little Lemon"/>
       <h1>Homepage</h1>
-
+      <Nav/>
     </div>
   );
 }
