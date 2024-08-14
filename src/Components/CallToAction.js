@@ -24,5 +24,5 @@ function CallToAction(){
             </section>
         </header>
     );
-}
+};
 export default CallToAction;
