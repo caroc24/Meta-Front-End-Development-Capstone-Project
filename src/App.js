@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Nav from './Components/Nav';
+import Main from './Components/Main';
 import CallToAction from './Components/CalltoAction';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <meta name="og:locale" content="en_US"/>
       <meta name="og:site_name" content="Little Lemon"/>
 
+      <Main/>
       <Nav/>
       <CallToAction/>
 
