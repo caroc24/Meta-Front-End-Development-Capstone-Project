@@ -152,9 +152,9 @@ button {
   border-radius: 20px;
 }
 
-/*Start Specials section*/
+/* End Call to Action */
 
-/* menu items */
+/*Start Specials section*/
 
 .menu-container{
   margin: 110px auto;
@@ -209,6 +209,7 @@ button {
   font-size: 16px;
   font-weight: 600;
 }
+/* End Specials*/
 
 /*Start footer section*/
 
@@ -342,4 +343,4 @@ input, label{
 .comfirm span{
   color: blue;
 }
-/* End CallToAction */
+/* End Footer */
