@@ -1,12 +1,13 @@
 import React from "react"
 import '../App.css';
+import logo from '../images/logo.jpg';
 
 function Footer(){
     return(
         <footer className="">
             <section>
             <div className="company-info">
-                <img src={""} alt=""/>
+                <img src ={logo} height={50} alt="Little Lemon logo"/>
                 <p>We are a family owned Mediterraneran restaurant, focused on traditional recipes served with a modern twist.</p>
             </div>
             <div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css';
-import banner from '../images/banner.jpg';
 import Reservations from './Reservations';
 import {Routes, Route} from 'react-router-dom'
 import CallToAction from './CalltoAction';

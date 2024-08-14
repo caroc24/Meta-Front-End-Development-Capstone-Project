@@ -2,8 +2,9 @@ import React from 'react';
 import './App.css';
 import Nav from './Components/Nav';
 import Main from './Components/Main';
-import Footer from './Components/Footer';
 import CallToAction from './Components/CalltoAction';
+import Specials from './Components/Specials';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Main/>
       <Nav/>
       <CallToAction/>
+      <Specials/>
       <Footer/>
 
     </div>
