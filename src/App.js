@@ -4,6 +4,8 @@ import Nav from './Components/Nav';
 import Main from './Components/Main';
 import Specials from './Components/Specials';
 import Footer from './Components/Footer';
+import CallToAction from './Components/CalltoAction';
+import ReservationForm from './Components/ReservationForm';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
 
       <Nav/>
       <Main/>
+      <CallToAction/>
+      <ReservationForm/>
       <Specials/>
       <Footer/>
 
