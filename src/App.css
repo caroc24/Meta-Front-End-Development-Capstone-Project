@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -41,7 +41,10 @@ body{
   width: 100%;
   margin: 0 auto;
 }
+*/
 
+
+/* Start Nav Style*/
 li{
   list-style: none;
 }
@@ -52,7 +55,6 @@ a{
 nav{
   z-index: 10001;
 }
-
 
 .navbar {
   padding: 10px 13%;
@@ -73,6 +75,24 @@ nav ul li a{
 nav ul li a:hover{
   text-decoration: underline solid #495E57;
 }
-.navbar{
-  background-color: #FFFFFF;
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
+
+.nav-links.visible {
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 100%;
+  background-color: #495E57;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+/* End Nav Style*/

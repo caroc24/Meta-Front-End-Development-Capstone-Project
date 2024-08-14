@@ -9,7 +9,7 @@ const Nav = () => {
         </a>
 
         {/*Navigation Bar Items*/}
-        <ul>
+        <ul className="nav-links">
             <li><a href="/home">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/menu">Menu</a></li>

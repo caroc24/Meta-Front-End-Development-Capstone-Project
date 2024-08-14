@@ -13,7 +13,7 @@ function App() {
       <meta name="og:description" content="Little Lemon is a family-owned Mediterranean restaurant that mixes family recipes with a modern twist."/>
       <meta name="og:locale" content="en_US"/>
       <meta name="og:site_name" content="Little Lemon"/>
-      <h1>Homepage</h1>
+
       <Nav/>
     </div>
   );
