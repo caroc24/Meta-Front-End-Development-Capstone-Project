@@ -1,9 +1,10 @@
 import React from 'react';
+import '../App.css';
 import logo from '../images/logo.jpg';
 
 const Nav = () => {
     return <nav className="navbar">
-        <a href="/" classname="logo">
+        <a href="/" className="logo">
             <img src ={logo} height={50} alt="Little Lemon logo"/>
         </a>
 
