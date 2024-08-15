@@ -3,7 +3,7 @@ import '../App.css';
 import banner from '../images/banner.jpg';
 import { Link } from 'react-router-dom'
 
-function CallToAction(){
+const CallToAction = () => {
     return(
         <header className="header">
             <section>
