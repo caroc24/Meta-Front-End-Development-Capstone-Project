@@ -1,7 +1,8 @@
 import React, { useReducer, useEffect } from 'react';
 import '../App.css';
-import Reservations from './Reservations';
 import { Navigate, Route, Routes, useNavigate } from 'react-router-dom'
+import Reservations from './Reservations';
+import ConfirmedReservation from './ConfirmedReservation';
 import CallToAction from './CalltoAction';
 
 function Main(){
@@ -15,6 +16,24 @@ function Main(){
             return (s = s * a % m) / m;
         };
     }
+
+    const fetchAPI = function(date) {
+        let result = [];
+        let random = seededRandom(date.getDate());
+
+        for(let i = 17; i <= 23; i++) {
+            if(random() < 0.5) {
+                result.push(i + ':00');
+            }
+            if(random() < 0.5) {
+                result.push(i + ':30');
+            }
+        }
+        return result;
+    };
+    const submitAPI = function(formData) {
+        return true;
+    };
 
     const initialState = {availableTimes:  fetchAPI(new Date())}
     const [state, dispatch] = useReducer(updateTimes, initialState);
@@ -36,6 +55,7 @@ function Main(){
                     <Reservations availableTimes={state} dispatch={dispatch} submitForm={submitForm}/>
                     }
                 />
+                <Route path="/confirmed" element={<ConfirmedReservation/> } />
             </Routes>
         </main>
     );
