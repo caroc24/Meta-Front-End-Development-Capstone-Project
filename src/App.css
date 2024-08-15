@@ -189,7 +189,7 @@ input, label{
 
 .menu-items{
   /* height: 400px; */
-  width: 350px;
+  width: 300px;
   background: #a9c8be;
   border-radius: 8px;
 }
@@ -232,6 +232,10 @@ footer section{
 
 .company-info p{
   width: 320px;
+}
+
+footer{
+  background-color: #495E57;
 }
 
 footer h3{
