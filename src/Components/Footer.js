@@ -2,7 +2,7 @@ import React from "react"
 import '../App.css';
 import logo from '../images/logo.jpg';
 
-function Footer(){
+const Footer = () => {
     return(
         <footer className="">
             <section>
